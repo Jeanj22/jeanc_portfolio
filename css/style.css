@@ -1,0 +1,57 @@
+/* CSS variables; declare variable with `--` syntax */
+
+:root {
+    
+    --dark: #8c7284;
+   
+  }
+  
+  /* header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+
+
+    /* CSS var() function*/
+    background-color: var(--dark);
+    color: var(--light);
+  }
+  
+  /* body  */
+  h1 {
+    font-size: 200%;
+  }
+  
+  h2 {
+    margin: 3% ;
+    font-size: 150%;
+  }
+
+  /* ul links */
+  a[href*='.css']::after {
+    content: '📝';
+    display: inline-block;
+    margin-left: 3px;
+  }
+   
+
+  /* navigation, lists, anchor refs, */
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  }
+  
+   nav a {
+    background-color: unset;
+    color: var(--navlink-color);
+    font-weight: bold;
+    text-decoration: none;
+  } 
+  
+
+
+
+  
