@@ -3,24 +3,25 @@
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1%;
+    align-items: center;     
     background-color: #8c7284;
+    /* not working
     margin: 0;
-  padding: 0;
+    padding: 0;
+    box-sizing: border-box;  */
   }
-  
 
-  
+   
   /* body  */
   body {
     min-height: 100%;
-    line-height: 1.5;
+    line-height: 2.5;
     font-family: Calibri ;
   }
   
   h1 {
     font-size: 200%;
+    color: black;
   }
   
   h2 {
@@ -35,19 +36,19 @@
     display: flex;
     justify-content: space-between;
     min-width: 400px;
-  }
-
-  ol,
-  ul {
     list-style: none;
   }
-  nav a {
-   
+
+  
+  nav a {   
     font-weight: bold;
     color: black;
     text-decoration: none;
+    font-size: 110%;
   }
 
-
+  nav a:hover {
+    color: white;
+  }
 
   
