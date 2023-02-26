@@ -29,6 +29,18 @@
     font-size: 150%;
   }
 
+  .hero-banner {
+    
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: pink;
+    /* background-image: url("../images/02-hero-bg.jpg"); */
+    background-size: cover;
+    background-position: center;
+}
+
+
 
 
   /* navigation, lists, anchor refs, */
