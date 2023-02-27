@@ -4,19 +4,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;     
-    background-color: #8c7284;
-    /* not working
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;  */
-  }
+    background-color: #644C94;
+     }
 
    
   /* body  */
   body {
     min-height: 100%;
-    line-height: 2.5;
-    font-family: Calibri ;
+    line-height: 2;
+    font-family:  Verdana,sans-serif; ;
+
   }
   
   h1 {
@@ -34,9 +31,9 @@
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-color: pink;
+    background-color: #8c7284;
     /* background-image: url("../images/02-hero-bg.jpg"); */
-    background-size: cover;
+    background-size: cover; */
     background-position: center;
 }
 
@@ -44,12 +41,12 @@
 
 
   /* navigation, lists, anchor refs, */
-  nav ul {
+ .page-section  {
     display: flex;
     justify-content: space-between;
-    min-width: 400px;
+    min-width: 500px;
     list-style: none;
-  }
+   }
 
   
   nav a {   
@@ -63,4 +60,5 @@
     color: white;
   }
 
+  
   
