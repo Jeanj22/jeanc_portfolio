@@ -22,7 +22,6 @@
      }
   
   h2 {
-
     font-size: 150%;
   }
 
@@ -31,8 +30,7 @@
     width: 100%;
     margin-bottom: 25px;
     background-color: #8c7284;
-    /* background-image: url("../images/02-hero-bg.jpg"); */
-    background-size: cover; */
+    background-size: cover; 
     background-position: center;
   }
 
@@ -42,6 +40,7 @@
  position: :absolute;
 
 }
+
 /* about me */
 .img-me {
     max-width: 100%;
@@ -49,7 +48,40 @@
     vertical-align: middle
   }
 
- 
+  .box-sizing: { inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+   
+  } 
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about {
+    padding: 2px;
+    text-align: center;
+    background-color: #d5bdaf;
+    color: black;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
 
 
   /* navigation, lists, anchor refs, */
@@ -76,7 +108,7 @@
  
 
 
-/* Footer */
+/* contact/ footer */
 
 .contact {
     display: flex;
@@ -86,11 +118,17 @@
     font-weight: bold;
     text-decoration: none;
     font-size: 100%
+    text-align: center;
+    }
   
-}
+    
+  @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+    }
 
 
-/* if background color changes
-.contact :hover {
-    color: white;
-  } */
+
+ 
