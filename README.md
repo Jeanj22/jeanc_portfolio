@@ -14,7 +14,7 @@ N/A
 
 
 ## Usage
-The Jean C Portfolio contain four sections: About Me, Work and Contact Me. 
+The Jean C Portfolio contain four sections: About Me, Work, Contact Me, and Resume.
 
 To navigate each section, select one of the four corresponding links at the top of the page.
 
